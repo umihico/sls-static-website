@@ -71,3 +71,6 @@ resources:
       Description: "How to invalidation: aws cloudfront create-invalidation --distribution-id XXXXXXXXXX --paths '/*'"
       Value:
         Ref: WebsiteCloudfront
+
+plugins:
+  - serverless-s3-sync
