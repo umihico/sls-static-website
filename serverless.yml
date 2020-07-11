@@ -74,3 +74,9 @@ resources:
 
 plugins:
   - serverless-s3-sync
+
+custom:
+  s3Sync:
+    - bucketName: sls-static-website.umihi.co
+      localDir: static
+      acl: public-read
